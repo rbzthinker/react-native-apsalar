@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0741DC3F1E2367C700D41EA9 /* RNApsalar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0741DC3E1E2367C700D41EA9 /* RNApsalar.m */; };
+		0741DC401E2367C700D41EA9 /* RNApsalar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0741DC3D1E2367C700D41EA9 /* RNApsalar.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0741DC381E2367C700D41EA9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				0741DC401E2367C700D41EA9 /* RNApsalar.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0727A5C91E2376710058E6D7 /* libApsalar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libApsalar.a; path = ../../../ios/ApsalarSDK/libApsalar.a; sourceTree = "<group>"; };
+		0727A5CC1E2376F70058E6D7 /* Apsalar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apsalar.h; sourceTree = "<group>"; };
+		0727A5CD1E2376F70058E6D7 /* Apsalar.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Apsalar.js; sourceTree = "<group>"; };
+		0727A5CE1E2376F70058E6D7 /* libApsalar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libApsalar.a; sourceTree = "<group>"; };
+		0727A5CF1E2376F70058E6D7 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		0741DC3A1E2367C700D41EA9 /* libRNApsalar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNApsalar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0741DC3D1E2367C700D41EA9 /* RNApsalar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNApsalar.h; sourceTree = "<group>"; };
+		0741DC3E1E2367C700D41EA9 /* RNApsalar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNApsalar.m; sourceTree = "<group>"; };
+		07D4943C1E2374D00049DBF0 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		07D4943E1E2374D80049DBF0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		07D494401E2374DF0049DBF0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		07D494421E2374ED0049DBF0 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		07D494441E2374F30049DBF0 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		07D494461E2374FB0049DBF0 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0741DC371E2367C700D41EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0727A5CB1E2376F70058E6D7 /* ApsalarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				0727A5CC1E2376F70058E6D7 /* Apsalar.h */,
+				0727A5CD1E2376F70058E6D7 /* Apsalar.js */,
+				0727A5CE1E2376F70058E6D7 /* libApsalar.a */,
+				0727A5CF1E2376F70058E6D7 /* README */,
+			);
+			name = ApsalarSDK;
+			path = ../../../../../../../private/tmp/ApsalarSDK;
+			sourceTree = "<group>";
+		};
+		0741DC311E2367C700D41EA9 = {
+			isa = PBXGroup;
+			children = (
+				0727A5CB1E2376F70058E6D7 /* ApsalarSDK */,
+				0741DC3C1E2367C700D41EA9 /* RNApsalar */,
+				0741DC3B1E2367C700D41EA9 /* Products */,
+				07D4943B1E2374D00049DBF0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0741DC3B1E2367C700D41EA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0741DC3A1E2367C700D41EA9 /* libRNApsalar.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0741DC3C1E2367C700D41EA9 /* RNApsalar */ = {
+			isa = PBXGroup;
+			children = (
+				0741DC3D1E2367C700D41EA9 /* RNApsalar.h */,
+				0741DC3E1E2367C700D41EA9 /* RNApsalar.m */,
+			);
+			path = RNApsalar;
+			sourceTree = "<group>";
+		};
+		07D4943B1E2374D00049DBF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0727A5C91E2376710058E6D7 /* libApsalar.a */,
+				07D494461E2374FB0049DBF0 /* iAd.framework */,
+				07D494441E2374F30049DBF0 /* AdSupport.framework */,
+				07D494421E2374ED0049DBF0 /* libz.tbd */,
+				07D494401E2374DF0049DBF0 /* Security.framework */,
+				07D4943E1E2374D80049DBF0 /* SystemConfiguration.framework */,
+				07D4943C1E2374D00049DBF0 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0741DC391E2367C700D41EA9 /* RNApsalar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0741DC431E2367C700D41EA9 /* Build configuration list for PBXNativeTarget "RNApsalar" */;
+			buildPhases = (
+				0741DC361E2367C700D41EA9 /* Sources */,
+				0741DC371E2367C700D41EA9 /* Frameworks */,
+				0741DC381E2367C700D41EA9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNApsalar;
+			productName = RNApsalar;
+			productReference = 0741DC3A1E2367C700D41EA9 /* libRNApsalar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0741DC321E2367C700D41EA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = sailplaneTW;
+				TargetAttributes = {
+					0741DC391E2367C700D41EA9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3SG86P297S;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0741DC351E2367C700D41EA9 /* Build configuration list for PBXProject "RNApsalar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0741DC311E2367C700D41EA9;
+			productRefGroup = 0741DC3B1E2367C700D41EA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0741DC391E2367C700D41EA9 /* RNApsalar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0741DC361E2367C700D41EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0741DC3F1E2367C700D41EA9 /* RNApsalar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0741DC411E2367C700D41EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/ApsalarSDK/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0741DC421E2367C700D41EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/ApsalarSDK/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0741DC441E2367C700D41EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3SG86P297S;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/ApsalarSDK/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0741DC451E2367C700D41EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3SG86P297S;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/ApsalarSDK/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0741DC351E2367C700D41EA9 /* Build configuration list for PBXProject "RNApsalar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0741DC411E2367C700D41EA9 /* Debug */,
+				0741DC421E2367C700D41EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0741DC431E2367C700D41EA9 /* Build configuration list for PBXNativeTarget "RNApsalar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0741DC441E2367C700D41EA9 /* Debug */,
+				0741DC451E2367C700D41EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0741DC321E2367C700D41EA9 /* Project object */;
+}
