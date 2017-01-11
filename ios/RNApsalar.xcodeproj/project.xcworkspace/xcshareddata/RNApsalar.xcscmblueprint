@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "075B11405DA4E7EC2A1310A289780F16EEC8BA30",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3C10803B20A2CF10154F495F759343E371D50956" : 9223372036854775807,
+    "075B11405DA4E7EC2A1310A289780F16EEC8BA30" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B9ACB08F-D06B-4D5F-AD31-621AE05AD02A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3C10803B20A2CF10154F495F759343E371D50956" : "..\/..\/..\/tmp\/ApsalarHeader\/react-native-apsalar",
+    "075B11405DA4E7EC2A1310A289780F16EEC8BA30" : "reebonz-mobile-app\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RNApsalar",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "node_modules\/react-native-apsalar\/ios\/RNApsalar.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:reebonzapprevamp\/reebonz-mobile-app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "075B11405DA4E7EC2A1310A289780F16EEC8BA30"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sailplaneTW\/react-native-apsalar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3C10803B20A2CF10154F495F759343E371D50956"
+    }
+  ]
+}
